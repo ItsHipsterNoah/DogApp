@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainMenuController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="320.0" spacing="10.0">
+         <children>
+            <Button maxWidth="69.0" mnemonicParsing="false" onAction="#onActionCreateAnimal" text="CREATE" />
+            <Button layoutX="138.0" layoutY="94.0" mnemonicParsing="false" onAction="#onActionDisplayAnimals" text="DISPLAY" />
+            <Button layoutX="138.0" layoutY="110.0" maxWidth="69.0" mnemonicParsing="false" onAction="#onActionExit" text="EXIT" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
